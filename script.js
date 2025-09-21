@@ -18,7 +18,7 @@ document.getElementById('florBtn').addEventListener('click', function() {
 
     // Variables para la animación
     let animationStep = 0;
-    const totalSteps = 300;
+    const totalSteps = 200;
 
     // Función para dibujar el fondo del cielo
     function drawSky() {
@@ -272,4 +272,5 @@ document.getElementById('florBtn').addEventListener('click', function() {
     // Iniciar animación
     animate();
 });
+
 
